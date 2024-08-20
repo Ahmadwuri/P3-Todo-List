@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/736x/de/e9/b8/dee9b81ac9c28582e3cbae4e31325ffb.jpg);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+p {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    color: transparent;
+    background-clip: text;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:blue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.completed span {
+    text-decoration: line-through;
+}
+
+li .todo-text {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+li .date {
+    font-size: 0.8em;
+    color: #888;
+    margin-right: 10px;
+}
+
+li .delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+li .delete:hover {
+    background-color: #c82333;
+}
